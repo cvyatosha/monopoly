@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monopoly</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="player_card">
+        <h1>Карточка гравця</h1>
+            <table class="player_info">
+                <tr>
+                    <td>Ім'я гравця</td>
+                    <td><label><input type="text" id="test" placeholder="Your name"></label></td>
+                </tr>
+                <tr>
+                    <td>Номер клієнта</td>
+                    <td><label><input type="number" id="test" value="0"></label></td>
+                </tr>
+                <tr>
+                    <td>Імідж</td>
+                    <td><label><input type="number" id="test" value="0"></label></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><label><p class="label_text">Товарний запас</p><textarea id="test" cols="30" rows="10" placeholder="Empty"></textarea></label></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <table class="shares">
+                            <tr>
+                                <th>Акції</th>
+                                <th>Належні вам %</th>
+                            </tr>
+                            <tr>
+                                <td>Авіакомпанії</td>
+                                <td><label><input type="number" id="test"></label></td>
+                            </tr>
+                            <tr>
+                                <td>Турфірми</td>
+                                <td><label><input type="number" id="test"></label></td>
+                            </tr>
+                            <tr>
+                                <td>будфірми</td>
+                                <td><label><input type="number" id="test"></label></td>
+                            </tr>
+                            <tr>
+                                <td>ТВ-канали</td>
+                                <td><label><input type="number" id="test"></label></td>
+                            </tr>
+                            <tr>
+                                <td>Автозавода</td>
+                                <td><label><input type="number" id="test"></label></td>
+                            </tr>
+                            <tr>
+                                <td>Видавництва</td>
+                                <td><label><input type="number" id="test"></label></td>
+                            </tr>
+                        </table>
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td colspan="2"><label><p class="label_text">Борги</p><textarea cols="30" rows="10" id="test" placeholder="Empty"></textarea></label></td>
+                </tr>
+            </table>
+    </section>
+    <script src="js/logic.js"></script>
+</body>
+</html>

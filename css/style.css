@@ -1,0 +1,56 @@
+:root{
+    --main-border-color: #D9D9D9;
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 18px;
+}
+body{
+    padding-top: 25px;
+}
+h1{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.player_card{
+    margin-bottom: 25px;
+    margin-inline: auto;
+    padding: 20px;
+    width: min(100% - 20px, 383px);
+    border: 2px solid var(--main-border-color);
+    border-radius: 15px;
+}
+.player_info{
+    border-collapse: collapse;
+    vertical-align: middle; 
+}
+.player_info th,
+.player_info td{
+    padding-bottom: 15px;
+}
+.player_info tr:last-child td{
+    padding: 0;
+}
+.player_info label{
+    display: block;
+}
+.player_info input,
+.player_info textarea{
+    padding: 5px 10px;
+    width: 100%;
+    border-radius: 15px;
+    border: 2px solid #D9D9D9;
+    resize: none;
+}
+.shares{
+    padding: 20px;
+    border-radius: 15px;
+    background: #D9D9D9;
+}
+.label_text{
+    margin-bottom: 5px;
+    font-size: 18px;
+}
